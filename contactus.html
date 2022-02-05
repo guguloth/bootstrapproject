@@ -80,8 +80,8 @@
             </div>
             <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" role="group">
-                  <a role="button" class="btn btn-primary" href="tel:+917417505957"> <i class="fa fa-phone"></i> </a>
-                  <a role="button" class="btn btn-info"> <i class="fa fa-skype"></i> </a>
+                  <a role="button" class="btn btn-primary mr-1" href="tel:+917417505957"> <i class="fa fa-phone"></i> </a>
+                  <a role="button" class="btn btn-info mr-1"> <i class="fa fa-skype"></i> </a>
                   <a role="button" class="btn btn-success" href="https://mail.google.com/mail/?view=cm&fs=1&to=gopalnaik670@gmail.com" target="-_blank"> <i class="fa fa-envelope"></i> </a>
                 </div>
             </div>
@@ -92,7 +92,69 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                Form goes here
+                <div class="form-group row">
+                  <label for="firstname" class="col-md-2 col-form-label">First name</label>
+                  <div class="col-md-10">
+                    <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First name" value="">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="lastname" class="col-md-2 col-form-label">Last name</label>
+                  <div class="col-md-10">
+                    <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last name" value="">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="phonenumber" class="col-md-2 col-form-label">Phone number</label>
+                  <div class="col-5 col-md-3">
+                    <input type="tel" id="countrycode" name="countrycode" class="form-control" placeholder="Country code" value="">
+                  </div>
+                  <div class="col-7 col-md-7">
+                    <input type="tel" id="phonenumber" name="phonenumber" class="form-control" placeholder="Phone number" value="">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="Email" class="col-md-2 col-form-label">Email</label>
+                  <div class="col-md-10">
+                    <input type="email" id="Email" name="Email" class="form-control" placeholder="Email" value="">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-6 offset-md-2">
+                    <div class="form-checkbox">
+                      <input type="checkbox" class="form-check-input" id="approve" name="approve" value="">
+                      <label class="form-checkbox-label"for="approve">
+                        <strong>May we contact you?</strong>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-3 offset-md-1">
+                    <select class="form-control" name="">
+                      <option value="">Tel</option>
+                      <option value="">Email</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="feedback" class="col-md-2 col-form-label">feedback</label>
+                  <div class="col-md-10">
+                    <textarea id="feedback" name="feedback" class="form-control" rows="12"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-10 offset-md-2">
+                    <button type="button" class="btn btn-primary" name="button">
+                      send feedback
+                    </button>
+                  </div>
+                </div>
+
             </div>
              <div class="col-12 col-md">
             </div>
